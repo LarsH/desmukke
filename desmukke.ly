@@ -34,14 +34,60 @@ settings = \relative c {
    \tempo "Allegretto leggiero" 4.=120
    \key as \major
    \time 12/8
-%  \autoBeamOff
+   \autoBeamOff
+   #(set-accidental-style 'modern-cautionary)
    \override TextSpanner #'(bound-details left text) = "rit."
+   \partial 8*7
 }
+
+%\slashedgrace Only available in lilypond 2.15+
+sg = #(define-music-function (parser location note ) (ly:music?)
+  #{
+      \once \override Stem #'stroke-style = #"grace"
+      \grace $note
+  #})
 
 tenorOne = \relative es' {
    \settings
-   es8
-   \bar "|."
+%210
+   es8 \sg f es d es \sg f es d es | es2.~(
+   es4 f8 es4 f8) | es4 r8 r4 es8 \sg f es d es \sg f es d es |
+   \mybreak
+
+%211
+   es2.~( es4. des4.) | c4 r8 r4 c8
+   \sg des c b c \sg des c b c | d4. c2. r4 r8 |
+   \mybreak
+
+%212
+   r4 r8 r4 r8 r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
+   \mybreak
+   f4. es r4 r8 d4. ^\mf | f4 es8 bes4 c8 es4 d8 as4 bes8|
+   \mybreak
+
+%213
+   des4( c8) des4 ^\< c8 c4( bes8) f'4 es8 | es4. \! \f ( as-> g) f | es( as-> g) f |
+   \mybreak
+   es4 ^\< f8 ges2. \! a,8 gis a | bes4.( g'2. f4.) | es r4 r8 r4 r8 r4 bes8 ^\p |
+   \mybreak
+
+%214
+   bes4. des2. g,4. | es'4( f8) es4 f8 es4( f8) es4 f8 |
+   \mybreak
+   bes,4. des2. g,4. | es'4( f8) es4 ^\< f8 es4( f8) es4 f8 |
+   \mybreak
+
+%215
+   ges2.~ ges4. f | f1. |
+   \mybreak
+   f2. \> es | es~
+   \mybreak
+
+%216
+   es2. | d2.~ d4. \! \tempo "dolce" d | es( f) g as |
+   \mybreak
+   c,( des) d es | as,2.( ^\p ^\< c~ | c\> bes) \! | as1.~ | as8 r r r4 \fermata
+   \bar ":|"
 }
 
 tenorTwo = \relative c' {
