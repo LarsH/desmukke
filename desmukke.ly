@@ -86,7 +86,7 @@ tenorOne = \relative es' {
 %216
    es2. | d2.~ d4. \! \tempo "dolce" d | es( f) g as |
    \mybreak
-   c,( des) d es | as,2.( ^\p ^\< c~ | c\> bes) \! | as1.~ | as8 r r r4 \fermata
+   c,( des) d es | as,2.( ^\p ^\< c~ | c\> bes) | as1.~ \! | as8 r r r4 \fermata
    \bar ":|"
 }
 
@@ -112,7 +112,7 @@ tenorTwo = \relative c' {
    b2. b | b~
 %216
    b2. | b2.~ b4. b | c1.~ |
-   c2.~ c4. c4. | es1.~( _\p _\< | es2.\> des) \! | c1.~ | c8 r r r4 \fermata
+   c2.~ c4. c4. | es1.~( _\p _\< | es2.\> des) | c1.~ \! | c8 r r r4 \fermata
    \bar ":|"
 }
 
@@ -123,7 +123,29 @@ bassOne = \relative as {
 
 bassTwo = \relative es {
    \settings
-   r8
+%210
+   r8 r4 r8 r4 r8 | r4 r8 r4 es8
+   f g as g as bes | c4( as8) es4 r8 r4 r8 r4 r8 |
+%211
+   r4 r8 r4 es8 des' bes g es des bes | as4( c16[ es]) as4 r8
+   r4 r8 r4 r8 | r4 r8 r4 r8 r4 r8 es4( as8) |
+%212
+   c4. des4 c8 bes4( as8) g4 f8 | es4( c8) as4 r8 r4 r8 r4 r8 |
+   r4 r8 r4 r8 r4 r8 as'4. _\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
+%213
+   % Ska det vara marcato efter forte:t?
+   es4. es4 _\< es8 d4. des4 des8 | c4.( \f b2.) b4. | c4.( b2.->) c4. |
+   c4 _\< c8 c2. \! ces8 ces ces | bes1. | es4. r4 es8 _\p f4( es8) f4 es8 |
+%214
+   % Ska det var dess eller dessess ?
+   des4.( bes) g des' | c( as) bes c |
+   des( bes) g des' | c( \< as) bes c |
+%215
+   c2. es | des1. |
+   d2.\> es | f2.~
+%216
+   f | f~ f4. \! f | es1.~
+   es2.~ es4. es | es1.~ _\p _\< | es \> | as,~ \! | as8 r r r4 \fermata
 }
 
 firstVerse = {
