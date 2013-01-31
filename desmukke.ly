@@ -62,13 +62,13 @@ tenorOne = \relative es' {
 %212
    r4 r8 r4 r8 r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
    \mybreak
-   f4. es r4 r8 d4. ^\mf | f4 es8 bes4 c8 es4 d8 as4 bes8|
+   f4. es r4 r8 d4. ^\mf | f4 es8 bes4 c8 es4 des8 as4 bes8|
    \mybreak
 
 %213
-   des4( c8) des4 ^\< c8 c4( bes8) f'4 es8 | es4. \! \f ( as-> g) f | es( as-> g) f |
+   des4( c8) des4 ^\< c8 c4( bes8) f'4 es8 | es4.( \f as-> g) f | es( as-> g) f|
    \mybreak
-   es4 ^\< f8 ges2. \! a,8 gis a | bes4.( g'2. f4.) | es r4 r8 r4 r8 r4 bes8 ^\p |
+   es4 ^\< f8 ges2. \! a,8 gis a | bes4.( g'2. f4.) | es r4 r8 r4 r8 r4 bes8^\p|
    \mybreak
 
 %214
