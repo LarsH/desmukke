@@ -118,7 +118,27 @@ tenorTwo = \relative c' {
 
 bassOne = \relative as {
    \settings
-   as8
+%210
+   as8 as as as a a a | bes4( as8) g4 r8
+   r4 r8 r4 r8 | r4 r8 r4 as8 as as as a a a |
+%211
+   bes4( as8) g4 r8 r4 r8 r4 r8 | r4 r8 r4 es8
+   es d es es d es | f4. es2. r4 r8 |
+%212
+   r4 r8 r4 r8 r4 r8 c'4.^\f | as as4 as8 as4.^\> as4 as8 \! |
+   g4. g r4 r8 as4.^\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
+%213
+   es4. es4 ^\< es8 f4. es4 es8 | es4.( ^\f f-> g) as | g( f-> g) as |
+   g4 ^\< as8 a2. \! es8 es es | es4.( bes' a as) | g r4 r8 r4 r8 r4 g8 ^\p |
+%214
+   g2. bes4. bes | es,2. g4. as |
+   g2. bes4. bes | es,2. ^\< g4. as |
+%215
+   bes4(\f a8) bes4 a8 bes4(a8) bes4 a8 | c4(bes8) a4 bes8 f4(g8) a4(bes8) |
+   as4 g8 as4 g8 as4 g8 as4 g8 | as4 g8 as4 g8
+%216
+   as4 g8 as4 g8 | as4. as2. as4. | as1.~ |
+   as2.~ as4. as | c2.( ^\p \< as | g1.) \> | es~ \! | es8 r8 r8 r4 \fermata
 }
 
 bassTwo = \relative es {
