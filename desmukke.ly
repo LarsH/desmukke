@@ -28,7 +28,9 @@
 %  foot-separation = 7
 }
 
-mybreak = { \break }
+mybreak = {
+%\break
+}
 
 settings = \relative c {
    \tempo "Allegretto leggiero" 4.=120
@@ -171,7 +173,36 @@ bassTwo = \relative es {
 firstVerse = {
    \set stanza = "1."
    \lyricmode {
-      Jeg
+      Jeg kig -- ge på pi -- ge -- nes ska -- re,
+      jeg spej -- der og spej -- der be -- stan -- dig,
+      jeg spej -- der og spej -- der be -- stan -- dig;
+      den skøn -- ne -- ste gad jeg nok ej -- e,
+      den skøn -- ne -- ste, den skøn -- ne -- ste,
+      den skøn -- ne -- ste, gad jeg nok ej -- e,
+      ja den skøn -- ne -- ste, gad jeg nok ej -- e!
+      Ak vid -- ste jeg blot, hvor hun fin -- des, ak
+      vid -- ste jeg blot, hvor hun fin -- des, ak
+      vid -- ste jeg, hvor hun fin -- des, __
+      ak hvor __ hun fin -- des! __
+   }
+}
+
+
+secondVerse = {
+   \set stanza = "2."
+   \lyricmode {
+      Den e -- ne har ej -- ne så kla -- re,
+      den an -- den har ro -- ser på kin -- den,
+      den an -- den har ro -- ser på kin -- den,
+      den tre -- die de sø -- de -- ste læ -- ber,
+      de sø -- de -- ste, de sø -- de -- ste,
+      de sø -- de -- ste, sø -- de -- ste læ -- ber,
+      ja de sø -- de -- ste, sø -- de -- ste læ -- ber,
+      den fjer -- de et glø -- den -- de hjer -- te,
+      den fjer -- de et glø -- den -- de hjer -- te,
+      den fjer -- de glø -- den -- de hjer -- te, __
+      % TODO: fixa "den" på rätt plats!
+      et glø1. dende hjer -- te! __
    }
 }
 
@@ -184,7 +215,8 @@ firstVerse = {
             \set Staff.instrumentName = "Tenor"
             \new Voice = "tenorOne" { \voiceOne \tenorOne }
             \new Voice = "tenorTwo" { \voiceTwo \tenorTwo }
-            \new Lyrics \lyricsto "tenorOne" { \firstVerse }
+            \new Lyrics \lyricsto "tenorTwo" { \firstVerse }
+            \new Lyrics \lyricsto "tenorTwo" { \secondVerse }
          >>
 
          \new Staff <<
