@@ -29,7 +29,7 @@
 }
 
 mybreak = {
-%\break
+\bar "" \break
 }
 
 settings = \relative c {
@@ -53,11 +53,13 @@ tenorOne = \relative es' {
    \settings
 %210
    es8 \sg f es d es \sg f es d es | es2.~(
+   \mybreak
    es4 f8 es4 f8) | es4 r8 r4 es8 \sg f es d es \sg f es d es |
    \mybreak
 
 %211
    es2.~( es4. des4.) | c4 r8 r4 c8
+   \mybreak
    \sg des c b c \sg des c b c | d4. c2. r4 r8 |
    \mybreak
 
