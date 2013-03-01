@@ -136,7 +136,7 @@ tenorOne = \relative es' {
    f2. es2. \> | es1. |
    d2.~ d4. d\f | es8 f g as es c as bes c des d f |
    es es r r4 r8 g g r r4 r8 | as1.(\p\< | as\f\> )\( |as,\) \pp\fermata |
-
+   \bar "|."
 }
 
 tenorTwo = \relative c' {
@@ -301,7 +301,7 @@ bassTwo = \relative es {
 firstVerseTenorOne = {
    \set stanza = "1."
    \lyricmode {
-      Jeg kig -- ge på pi -- ge -- nes ska -- re,
+      Jeg kig -- ger på pi -- ge -- nes ska -- re,
       jeg spej -- der og spej -- der be -- stan -- dig,
       jeg spej -- der og spej -- der be -- stan -- dig;
       den skøn -- ne -- ste gad jeg nok ej -- e,
@@ -367,7 +367,7 @@ endingTenorOne = \lyricmode {
 firstVerseTenorTwo = {
    \set stanza = "1."
    \lyricmode {
-      Jeg kig -- ge på pi -- ge -- nes ska -- re,
+      Jeg kig -- ger på pi -- ge -- nes ska -- re,
       jeg spej -- der og spej -- der be -- stan -- dig,
       jeg spej -- der og spej -- der be -- stan -- dig;
       den skøn -- ne -- ste gad jeg nok ej -- e,
