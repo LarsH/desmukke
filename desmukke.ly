@@ -91,7 +91,52 @@ tenorOne = \relative es' {
    es2. | d2.~ d4. \! \tempo "dolce" d | es( f) g as |
    \mybreak
    c,( des) d es | as,2.( ^\p ^\< c~ | c\> bes) | as1.~ \! | as8 r r r4 \fermata
+   \mybreak
    \bar ":|"
+
+%217
+   es'8 ^\p \sg f es d es \sg f es d es | es2.~( es4 f8 es4 f8) |
+   \mybreak
+   es4 r8 r4 es8 \sg f es d es \sg f es d es | es2.~(
+   \mybreak
+   es4. des4.) | c4 r8 r4 c8
+   \sg des c b c \sg des c b c | d4. c2. r4 r8 |
+   \mybreak
+
+%218
+   r4 r8 r4 r8 r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
+   \mybreak
+   f4. es r4 r8 d4. ^\p | f4. es r4 d8 d es f | f4. es
+   r4 r8 r4 r8 | r4 r8 r4 r8 r4 r8 es4.\p |
+%219
+   es4.(^\< f) g as \! |
+   as ^\> g4 f8 f4. es4 es8 |
+   es4.(^\< f) g as \! |
+%220
+   as4 ^\> g8 bes as f f4. es \! |
+   es2.( \< f4. g | as c, des es | f2.) ^\> fes
+   es~(^\p es4. f4 es8) | es r r r4 r8 r4 r8 r4 r8 |
+%221
+   r4 r8 r4 r8 r4 r8 es4. |
+   es4.( ^\< f) g \! as |
+   as ^\> g4 f8 f4. es |
+%222
+   es4.( ^\< f) g \! as |
+   as4 g8 ^\> bes as f f4. \! es |
+   es( ^\< as2. g4. |
+%223
+   ges2. f4.) fes \> |
+   es2.~( \p es4. f4 es8) |
+   es r r r4 r8 r4 r8 r4 r8 |
+%224
+   es \f \> es es es es es es es \! r r4 r8 |
+   es \> es es es es es es es \! r r4 r8 |
+   r4 r8 r4 r8 r4 r8 es^\< es es  | ges2. \ff f8 r r r4 r8|
+%225
+   f2. es2. \> | es1. |
+   d2.~ d4. d\f | es8 f g as es c as bes c des d f |
+   es es r r4 r8 g g r r4 r8 | as1.(\p\< | as\f\> )\( |as,\) \pp\fermata |
+
 }
 
 tenorTwo = \relative c' {
@@ -217,6 +262,72 @@ bassTwo = \relative es {
    es2.~ es4. es | es1.~ _\p _\< | es \> | as,~ \! | as8 r r r4 \fermata
 }
 
+firstVerseTenorOne = {
+   \set stanza = "1."
+   \lyricmode {
+      Jeg kig -- ge på pi -- ge -- nes ska -- re,
+      jeg spej -- der og spej -- der be -- stan -- dig,
+      jeg spej -- der og spej -- der be -- stan -- dig;
+      den skøn -- ne -- ste gad jeg nok ej -- e,
+      den skøn -- ne -- ste, den skøn -- ne -- ste,
+      den skøn -- ne -- ste, gad jeg nok ej -- e,
+      ja den skøn -- ne -- ste, gad jeg nok ej -- e!
+      Ak vid -- ste ja vid -- ste jeg blot, hvor hun fin -- des, ak
+      vid -- ste jeg blot, hvor hun fin -- des, ak
+      hvor hun fin -- des, __
+      ak vid -- ste jeg blot, hvor hun fin -- des! __
+   }
+}
+
+
+secondVerseTenorOne = {
+   \set stanza = "2."
+   \lyricmode {
+      Den e -- ne har ej -- ne så kla -- re,
+      den an -- den har ro -- ser på kin -- den,
+      den an -- den har ro -- ser på kin -- den,
+      den tre -- die de sø -- de -- ste læ -- ber,
+      de sø -- de -- ste, de sø -- de -- ste,
+      de sø -- de -- ste, sø -- de -- ste læ -- ber,
+      ja de sø -- de -- ste, sø -- de -- ste læ -- ber,
+      den fjer -- de et glø -- den -- de, glø -- den -- de hjer -- te,
+      et glø -- den -- de, glø -- den -- de hjer -- te,
+      glø -- den -- de hjer -- te,
+      den fjer -- de et glø -- den -- de hjer -- te! __
+      % TODO: fixa "den" på rätt plats!
+   }
+}
+
+endingTenorOne = \lyricmode {
+   Der er ej den pi -- ge, der sav -- ner et no -- get,
+   der fæng -- sler min tan -- ke,
+   et no -- get, der fæng -- sler min tan -- ke.
+   Jeg kan ej en e -- ne -- ste vra -- ge,
+   jeg kan ej en e -- ne ste vra -- ge,
+   o kunn -- e jeg
+   kys -- se dem al -- le, o
+   kun -- ne jeg
+   kys -- se, kys -- se dem al -- le,
+   al -- le,
+   al -- le,
+   o
+   kun -- ne jeg
+   kys -- se dem al -- le,
+
+   kun -- ne jeg
+   kys -- se, kys -- se dem al -- le,
+   al -- le, al -- le,
+
+   kun -- ne jeg kys -- se dem al -- le,
+   kun -- ne jeg kys -- se dem al -- le,
+   kys -- se dem al -- le,
+
+   ak dem al -- le,
+   o kun -- ne jeg kys -- se dem al -- le,
+   ja kys -- se dem al -- le, al -- le al -- le!
+}
+
+
 firstVerseTenorTwo = {
    \set stanza = "1."
    \lyricmode {
@@ -298,6 +409,9 @@ endingTenorTwo = \lyricmode {
             \clef "G_8"
             \set Staff.instrumentName = "Tenor I"
             \new Voice = "tenorOne" {\tenorOne }
+            \new Lyrics \lyricsto "tenorOne" { \firstVerseTenorOne
+                                               \endingTenorOne}
+            \new Lyrics \lyricsto "tenorOne" { \secondVerseTenorOne }
          >>
          \new Staff <<
             \clef "G_8"
