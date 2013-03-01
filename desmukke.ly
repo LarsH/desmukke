@@ -233,6 +233,42 @@ bassOne = \relative as {
 %216
    as4 g8 as4 g8 | as4. as2. as4. | as1.~ |
    as2.~ as4. as | c2.( ^\p \< as | g1.) \> | es~ \! | es8 r8 r8 r4 \fermata
+%217
+   as8 ^\p as as as a a a | bes4( as8) g4 r8 r4 r8 r4 r8 |
+   r4 r8 r4 as8 as as as a a a | bes4( as8) g4 r8
+   r4 r8 r4 r8 | r4 r8 r4 es8 es d es es d es |
+%218
+   f4. es2. r4 r8 | r4 r8 r4 r8 r4 r8 c'4.^\f | as as4 as8 as4.
+   as4 \> as8 \! | g4. g r4 r8 as4.^\p | g g r4 as8 as as as | g4. g
+   r4 r8 r4 r8 | r4 r8 r4 bes8  bes bes bes  bes bes bes
+%219
+   as as as  as as as  as as as  as as as |
+   bes bes bes  bes bes bes  bes bes bes  bes bes bes |
+   as as as  as as as  as as as  as as as |
+%220
+   bes bes bes  bes bes bes  bes bes bes  bes bes bes |
+   as4.( \< es' d des | c as2. ges4. | as2.)\> ces |
+   bes4.( \p c des2.) | c8 r r  r4 r8  r4 r8  r4 r8 |
+%221
+   bes\pp bes bes  bes bes bes  bes bes bes  bes bes bes |
+   as as as  as as as  as as as  as as as |
+   bes bes bes  bes bes bes  bes bes bes  bes bes bes |
+%222
+   as as as  as as as  as as as  as as as |
+   bes bes bes  bes bes bes  bes bes bes  bes bes bes |
+   as4.(\< c bes2. |
+%223
+   as4. beses as) ces \> |
+   bes( \p c4. d2.) |
+   c8 r r  r4 r8  r4 r8  r4 r8 |
+%224
+   es,\f \> es es  f f g  as as \! r8  r4 r8 |
+   es \> es es  f f g as as \! r r4 r8 |
+   r4 r8  r4 r8  r4 r8  es8 \< es es | es2. \ff f8 r r r4 r8 |
+%225
+   as4( g8) as4 g8 as4( g8) as4 g8 | as4 g8 as4 g8 as4 g8 as4 g8 |
+   as4. as2. as4. \f | as8 as as  as as as  as, bes c  des d f |
+   es es r  r4 r8  es' es r  r4 r8 | es,2.(\p \< ges! | ges \f \> f) | es1.\pp \fermata |
 }
 
 bassTwo = \relative es {
@@ -401,6 +437,85 @@ endingTenorTwo = \lyricmode {
    ja kys -- se dem al -- le, al -- le, al -- le!
 }
 
+firstVerseBasOne = {
+   \set stanza = "1."
+   \lyricmode {
+      Jeg kig -- ger på pi -- ge -- nes ska -- re,
+      jeg spej -- der og spej -- der be -- stan -- dig,
+      jeg spej -- der og spej -- der be -- stan -- dig;
+      den skøn -- ne -- ste gad jeg nok ej -- e,
+      den skøn -- ne -- ste, den skøn -- ne -- ste,
+      den skøn -- ne -- ste, gad jeg nok ej -- e,
+      ja den skøn -- ne -- ste, gad jeg nok ej -- e!
+      Ak vid -- ste jeg blot, hvor hun fin -- des, ak
+      vid -- ste jeg,
+      vid -- ste jeg blot, hvor hun fin -- des, ak hvor hun
+      fin -- des, hvor hun fin -- des, hvor hun fin -- des, hvor hun
+      fin -- des, hvor hun fin -- des, ak hvor __
+      hun fin -- des! __
+   }
+}
+
+
+secondVerseBasOne = {
+   \set stanza = "2."
+   \lyricmode {
+      Den e -- ne har ej -- ne så kla -- re,
+      den an -- den har ro -- ser på kin -- den,
+      den an -- den har ro -- ser på kin -- den,
+      den tre -- die de sø -- de -- ste læ -- ber,
+      de sø -- de -- ste, de sø -- de -- ste,
+      de sø -- de -- ste, sø -- de -- ste læ -- ber,
+      ja de sø -- de -- ste, sø -- de -- ste læ -- ber,
+      den fjer -- de et glø -- den -- de,
+      glø -- den -- de  hjer -- te, den
+      fjer -- de et glø -- den -- de hjer -- te, et glø -- dende
+      hjer -- te, ak et hjer -- te, ak et hjer -- te, ak et
+      hjer -- te, ak et hjer -- te, et glø --
+      dende hjer -- te! __
+      }
+}
+
+endingBasOne = \lyricmode {
+   Der er ej den pi -- ge, der sav -- ner et no -- get,
+   der fæng -- sler min tan -- ke,
+   et no -- get, der fæng -- sler min tan -- ke.
+   Jeg kan ej en e -- ne -- ste vra -- ge,
+   jeg kan ej en e -- ne ste vra -- ge,
+   o kunn -- e jeg, kunn -- e jeg,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   al -- le, al -- le,
+   kunn -- e jeg, kunn -- e jeg,
+   kunn -- e jeg, kunn -- e jeg,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   al -- le, al -- le,
+
+   kunn -- e jeg kys -- se dem al -- le,
+   kunn -- e jeg kys -- se dem al -- le,
+   kys -- se dem al -- le,
+
+   kunn -- e jeg kys -- se dem al -- le, ja dem al -- le, ja dem
+   al -- le,
+
+   o kunn -- e jeg kys -- se dem al -- le,
+   ja kys -- se dem al -- le, al -- le, al -- le!
+}
+
+
 %% Layout
 \book{
    \score {
@@ -424,9 +539,16 @@ endingTenorTwo = \lyricmode {
 
          \new Staff <<
             \clef bass
-            \set Staff.instrumentName = "Bas"
-            \new Voice = "bassOne" { \voiceOne \bassOne }
-            \new Voice = "bassTwo" { \voiceTwo \bassTwo }
+            \set Staff.instrumentName = "Bas I"
+            \new Voice = "bassOne" { \bassOne }
+            \new Lyrics \lyricsto "bassOne" { \firstVerseBasOne
+                                               \endingBasOne}
+            \new Lyrics \lyricsto "bassOne" { \secondVerseBasOne }
+         >>
+         \new Staff <<
+            \clef bass
+            \set Staff.instrumentName = "Bas II"
+            \new Voice = "bassTwo" { \bassTwo }
          >>
       >>
       \layout{}
