@@ -217,7 +217,7 @@ bassTwo = \relative es {
    es2.~ es4. es | es1.~ _\p _\< | es \> | as,~ \! | as8 r r r4 \fermata
 }
 
-firstVerse = {
+firstVerseTenorTwo = {
    \set stanza = "1."
    \lyricmode {
       Jeg kig -- ge på pi -- ge -- nes ska -- re,
@@ -235,7 +235,7 @@ firstVerse = {
 }
 
 
-secondVerse = {
+secondVerseTenorTwo = {
    \set stanza = "2."
    \lyricmode {
       Den e -- ne har ej -- ne så kla -- re,
@@ -303,8 +303,9 @@ endingTenorTwo = \lyricmode {
             \clef "G_8"
             \set Staff.instrumentName = "Tenor II"
             \new Voice = "tenorTwo" {\tenorTwo }
-            \new Lyrics \lyricsto "tenorTwo" { \firstVerse \endingTenorTwo}
-            \new Lyrics \lyricsto "tenorTwo" { \secondVerse }
+            \new Lyrics \lyricsto "tenorTwo" { \firstVerseTenorTwo
+                                               \endingTenorTwo}
+            \new Lyrics \lyricsto "tenorTwo" { \secondVerseTenorTwo }
          >>
 
          \new Staff <<
