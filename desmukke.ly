@@ -118,6 +118,51 @@ tenorTwo = \relative c' {
    b2. | b2.~ b4. b | c1.~ |
    c2.~ c4. c4. | es1.~( _\p _\< | es2.\> des) | c1.~ \! | c8 r r r4 \fermata
    \bar ":|"
+
+%217
+   c8 c c c  c c c | des1.
+   \mybreak
+   c4 r8 r4 c8 c c c  c c c | des2.~(
+   \mybreak
+   des4. g,) | as4 r8 r4 as8 as as as  as as as |
+   \pageBreak
+%218
+   as4. as2. r4 r8 | r4 r8 r4 r8 r4 r8 es'4. _\f | c c4 c8
+   \mybreak
+   ces4. _\> ces4 ces8 \! | bes4. bes4. r4 r8
+      ces4. _\p | bes4. bes r4 ces8 ces ces ces | bes4. bes
+   \mybreak
+   r4 r8 r4 r8 | r4 r8 r4 des8 des des des des des des |
+   \mybreak
+%219
+   c c c c c c c c c c c c | \mybreak
+   des des des des des des des des des des des des | \mybreak
+   c c c c c c c c c c c c | \mybreak
+%220
+   des des des des des des des des des des des des | \mybreak
+   c4.( es2.~ es4.~ | es as, bes c | des2.) as | \mybreak
+   as(\p g) | as8 r r r4 r8 r4 r8 r4 r8 | \mybreak
+%221
+   des des des des des des des des des des des des | \mybreak
+   c c c c c c c c c c c c | \mybreak
+   des des des des des des des des des des des des | \mybreak
+%222
+   c c c c c c c c c c c c | \mybreak
+   des des des des des des des des des des des des | \mybreak
+   c4.( es des2. | \mybreak
+%223
+   es2. des4.) as | \mybreak
+   as2.( g) | \mybreak
+   as8 r r es \< f g as bes c des d f | \mybreak
+%224
+   es \f \> es es d d des c c \! r r4 r8 | \mybreak
+   es \> es es d d des c c \! r r4 r8 | \mybreak
+   r4 r8 r4 r8 es[ \< f es] des[ es] des | c2. \ff des8 r r r4 r8|\mybreak
+%225
+   b2. b2. \> | b1. | \mybreak
+   b2.~  b4. b\f | c8 c c c c c as bes c des d f | \break
+   es es r r4 r8 des des r r4 r8 | c2.(\p\< es~ | es\f\> des) |c1.\pp\fermata |
+
 }
 
 bassOne = \relative as {
@@ -208,16 +253,57 @@ secondVerse = {
    }
 }
 
+endingTenorTwo = \lyricmode {
+   % Tenor2
+   Der er ej den pi -- ge, der sav -- ner et no -- get,
+   der fæng -- sler min tan -- ke,
+   et no -- get, der fæng -- sler min tan -- ke.
+   Jeg kan ej en e -- ne -- ste vra -- ge,
+   jeg kan ej en e -- ne ste vra -- ge,
+   o kunn -- e jeg, kunn -- e jeg,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   al -- le, al -- le,
+   kunn -- e jeg, kunn -- e jeg,
+   kunn -- e jeg, kunn -- e jeg,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg kys -- se dem,
+   al -- le, al -- le,
+   kunn -- e jeg kys -- se dem,
+   kunn -- e jeg,
+   kunn -- e jeg kys -- se dem al -- le,
+   kunn -- e jeg kys -- se dem al -- le,
+   al -- le, dem al -- le, ak dem al -- le,
+   o kunn -- e jeg kys -- se dem al -- le,
+   ja kys -- se dem al -- le, al -- le, al -- le!
+}
+
 %% Layout
 \book{
    \score {
       \new ChoirStaff <<
          \new Staff <<
             \clef "G_8"
-            \set Staff.instrumentName = "Tenor"
-            \new Voice = "tenorOne" { \voiceOne \tenorOne }
-            \new Voice = "tenorTwo" { \voiceTwo \tenorTwo }
-            \new Lyrics \lyricsto "tenorTwo" { \firstVerse }
+            \set Staff.instrumentName = "Tenor I"
+            \new Voice = "tenorOne" {\tenorOne }
+         >>
+         \new Staff <<
+            \clef "G_8"
+            \set Staff.instrumentName = "Tenor II"
+            \new Voice = "tenorTwo" {\tenorTwo }
+            \new Lyrics \lyricsto "tenorTwo" { \firstVerse \endingTenorTwo}
             \new Lyrics \lyricsto "tenorTwo" { \secondVerse }
          >>
 
