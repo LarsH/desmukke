@@ -1,6 +1,6 @@
-\version "2.12.2"
+\version "2.14.2"
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 16)
 
 %\pointAndClickOff
 
@@ -17,19 +17,19 @@
 }
 
 \paper {
-%  page-count = 1
+   page-count = 8
 %  left-margin = 45
-   line-width = 140
+   line-width = 160
    top-margin = 25
    bottom-margin = 25
-%  systems-per-page = 4
+%  systems-per-page = 3
 %  ragged-last-bottom = ##f
 %  annotate-spacing = ##t
 %  foot-separation = 7
 }
 
 mybreak = {
-\bar "" \break
+%\bar "" \break
 }
 
 settings = \relative c {
@@ -402,33 +402,37 @@ endingTenorOne = \lyricmode {
 
 
 firstVerseTenorTwo = {
-   \set stanza = "1."
+%   \set stanza = "1."
    \lyricmode {
-      Jeg kig -- ger på pi -- ge -- nes ska -- re,
-      jeg spej -- der og spej -- der be -- stan -- dig,
-      jeg spej -- der og spej -- der be -- stan -- dig;
-      den skøn -- ne -- ste gad jeg nok ej -- e,
-      den skøn -- ne -- ste, den skøn -- ne -- ste,
-      den skøn -- ne -- ste, gad jeg nok ej -- e,
-      ja den skøn -- ne -- ste, gad jeg nok ej -- e!
+%     Jeg kig -- ger på pi -- ge -- nes ska -- re,
+%     jeg spej -- der og spej -- der be -- stan -- dig,
+%     jeg spej -- der og spej -- der be -- stan -- dig;
+\repeat unfold 27 {\skip 1}
+%      den skøn -- ne -- ste gad jeg nok ej -- e,
+%      den skøn -- ne -- ste, den skøn -- ne -- ste,
+%      den skøn -- ne -- ste, gad jeg nok ej -- e,
+%      ja den skøn -- ne -- ste, gad jeg nok ej -- e!
+\repeat unfold 36 {\skip 1}
       Ak vid -- ste jeg blot, hvor hun fin -- des, ak
       vid -- ste jeg blot, hvor hun fin -- des, ak
       vid -- ste jeg, hvor hun fin -- des, __
-      ak hvor __ hun fin -- des! __
+      ak hvor __ hun fin -- des!
    }
 }
 
 
 secondVerseTenorTwo = {
-   \set stanza = "2."
+%   \set stanza = "2."
    \lyricmode {
-      Den e -- ne har ej -- ne så kla -- re,
-      den an -- den har ro -- ser på kin -- den,
-      den an -- den har ro -- ser på kin -- den,
-      den tre -- die de sø -- de -- ste læ -- ber,
-      de sø -- de -- ste, de sø -- de -- ste,
-      de sø -- de -- ste, sø -- de -- ste læ -- ber,
-      ja de sø -- de -- ste, sø -- de -- ste læ -- ber,
+%      Den e -- ne har ej -- ne så kla -- re,
+%      den an -- den har ro -- ser på kin -- den,
+%      den an -- den har ro -- ser på kin -- den,
+\repeat unfold 27 {\skip 1}
+%      den tre -- die de sø -- de -- ste læ -- ber,
+%      de sø -- de -- ste, de sø -- de -- ste,
+%      de sø -- de -- ste, sø -- de -- ste læ -- ber,
+%      ja de sø -- de -- ste, sø -- de -- ste læ -- ber,
+\repeat unfold 36 {\skip 1}
       den fjer -- de et glø -- den -- de hjer -- te,
       den fjer -- de et glø -- den -- de hjer -- te,
       den fjer -- de glø -- den -- de hjer -- te, __
@@ -439,39 +443,59 @@ secondVerseTenorTwo = {
 
 endingTenorTwo = \lyricmode {
    % Tenor2
-   Der er ej den pi -- ge, der sav -- ner et no -- get,
-   der fæng -- sler min tan -- ke,
-   et no -- get, der fæng -- sler min tan -- ke.
-   Jeg kan ej en e -- ne -- ste vra -- ge,
-   jeg kan ej en e -- ne -- ste vra -- ge,
-   o kunn -- e jeg, kunn -- e jeg,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
+%   Der er ej den pi -- ge, der sav -- ner et no -- get,
+%   der fæng -- sler min tan -- ke,
+%   et no -- get, der fæng -- sler min tan -- ke.
+\repeat unfold 27 {\skip 1}
+
+%   Jeg kan ej en e -- ne -- ste vra -- ge,
+%   jeg kan ej en e -- ne -- ste vra -- ge,
+\repeat unfold 18 {\skip 1}
+
+%   o kunn -- e jeg, kunn -- e jeg,
+\repeat unfold 7 {\skip 1}
+
+%   kunn -- e jeg kys -- se dem,
+%   kunn -- e jeg kys -- se dem,
+\repeat unfold 12 {\skip 1}
+
+%   kunn -- e jeg kys -- se dem,
+%   kunn -- e jeg kys -- se dem,
+\repeat unfold 12 {\skip 1}
+
+%  kunn -- e jeg kys -- se dem,
+%  kunn -- e jeg kys -- se dem,
+\repeat unfold 12 {\skip 1}
+
+%  kunn -- e jeg kys -- se dem,
+%  kunn -- e jeg kys -- se dem,
+\repeat unfold 12 {\skip 1}
+
    al -- le, al -- le,
-   kunn -- e jeg, kunn -- e jeg,
-   kunn -- e jeg, kunn -- e jeg,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
+%   kunn -- e jeg, kunn -- e jeg,
+%   kunn -- e jeg, kunn -- e jeg,
+\repeat unfold 12 {\skip 1}
+%   kunn -- e jeg kys -- se dem,
+%   kunn -- e jeg kys -- se dem,
+\repeat unfold 12 {\skip 1}
+%  kunn -- e jeg kys -- se dem,
+%  kunn -- e jeg kys -- se dem,
+\repeat unfold 12 {\skip 1}
+%  kunn -- e jeg kys -- se dem,
+%  kunn -- e jeg kys -- se dem,
+\repeat unfold 12 {\skip 1}
+%  kunn -- e jeg kys -- se dem,
+%  kunn -- e jeg kys -- se dem,
+\repeat unfold 12 {\skip 1}
    al -- le, al -- le,
    kunn -- e jeg kys -- se dem,
    kunn -- e jeg,
    kunn -- e jeg kys -- se dem al -- le,
    kunn -- e jeg kys -- se dem al -- le,
-   al -- le, dem al -- le, ak dem al -- le,
-   o kunn -- e jeg kys -- se dem al -- le,
-   ja kys -- se dem al -- le, al -- le, al -- le!
+   al -- le, dem al -- le, ak dem
+   %al -- le,
+   %o kunn -- e jeg kys -- se dem al -- le,
+   %ja kys -- se dem al -- le, al -- le, al -- le!
 }
 
 firstVerseBasOne = {
@@ -539,10 +563,12 @@ endingBasOne = \lyricmode {
    kunn -- e jeg kys -- se dem,
    kunn -- e jeg kys -- se dem,
    kunn -- e jeg kys -- se dem,
-   al -- le, al -- le,
+   %al -- le, al -- le,
+\repeat unfold 4 {\skip 1}
 
-   kunn -- e jeg kys -- se dem al -- le,
-   kunn -- e jeg kys -- se dem al -- le,
+   %kunn -- e jeg kys -- se dem al -- le,
+   %kunn -- e jeg kys -- se dem al -- le,
+\repeat unfold 16 {\skip 1}
    kys -- se dem al -- le,
 
    kunn -- e jeg kys -- se dem al -- le, ja dem al -- le, ja dem
