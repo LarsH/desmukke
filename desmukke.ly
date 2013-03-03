@@ -650,22 +650,16 @@ endingBasTwo = \lyricmode {
             \new Lyrics \lyricsto "tenorTwo" { \secondVerseTenorTwo }
          >>
 
-         \new Staff <<
+         \new Staff = bas <<
+            \set Staff.instrumentName = "Bas I/II"
             \clef bass
-            \set Staff.instrumentName = "Bas I"
-            \new Voice = "bassOne" { \bassOne }
-            \new Lyrics \lyricsto "bassOne" { \firstVerseBasOne
-                                               \endingBasOne}
-            \new Lyrics \lyricsto "bassOne" { \secondVerseBasOne }
-         >>
-         \new Staff <<
-            \clef bass
-            \set Staff.instrumentName = "Bas II"
-            \new Voice = "bassTwo" { \bassTwo }
-            \new Lyrics \lyricsto "bassTwo" { \firstVerseBasTwo
-                                               \endingBasTwo}
+            \new Voice = "bassOne" { \voiceOne \bassOne }
+            \new Voice = "bassTwo" { \voiceTwo \bassTwo }
+            \new Lyrics \lyricsto "bassTwo" {\firstVerseBasTwo \endingBasTwo}
             \new Lyrics \lyricsto "bassTwo" { \secondVerseBasTwo }
          >>
+            \new Lyrics \with {alignAboveContext = bas} \lyricsto "bassOne" { \firstVerseBasOne \endingBasOne}
+            \new Lyrics \with {alignAboveContext = bas} \lyricsto "bassOne" { \secondVerseBasOne }
       >>
       \layout{}
    }
