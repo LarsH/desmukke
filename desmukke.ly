@@ -247,7 +247,7 @@ bassOne = \relative as {
    as as as  as as as  as as as  as as as |
 %220
    bes bes bes  bes bes bes  bes bes bes  bes bes bes |
-   as4.( \< es' d des | c as2. ges4. | as2.)\> ces |
+   as4.( ^\< es' d des | c as2. ges4. | as2.)\> ces |
    bes4.( \p c des2.) | c8 r r  r4 r8  r4 r8  r4 r8 |
 %221
    bes ^\pp bes bes  bes bes bes  bes bes bes  bes bes bes |
@@ -471,7 +471,9 @@ endingTenorTwo = \lyricmode {
 %  kunn -- e jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
 
-   al -- le, al -- le,
+%   al -- le, al -- le,
+\repeat unfold 4 {\skip 1}
+
 %   kunn -- e jeg, kunn -- e jeg,
 %   kunn -- e jeg, kunn -- e jeg,
 \repeat unfold 12 {\skip 1}
