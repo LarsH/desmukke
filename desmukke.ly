@@ -60,7 +60,7 @@ tenorOne = \relative es' {
 %211
    es2.~( es4. des4.) | c4 r8 r4 c8
    \mybreak
-   \sg des c b c \sg des c b c | d4. c2. r4 r8 |
+   \sg des c b c \sg des c b c | des4. c2. r4 r8 |
    \mybreak
 
 %212
@@ -100,7 +100,7 @@ tenorOne = \relative es' {
    es4 r8 r4 es8 \sg f es d es \sg f es d es | es2.~(
    \mybreak
    es4. des4.) | c4 r8 r4 c8
-   \sg des c b c \sg des c b c | d4. c2. r4 r8 |
+   \sg des c b c \sg des c b c | des4. c2. r4 r8 |
    \mybreak
 
 %218
@@ -259,7 +259,7 @@ bassOne = \relative as {
    as4.(\< c bes2. |
 %223
    as4. beses as) ces \> |
-   bes( \p c4. d2.) |
+   bes( \p c4. des2.) |
    c8 r r  r4 r8  r4 r8  r4 r8 |
 %224
    es,^\f \> es es  f f g  as as \! r8  r4 r8 |
