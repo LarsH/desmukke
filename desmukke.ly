@@ -36,7 +36,7 @@ settings = \relative c {
    \tempo "Allegretto leggiero" 4.=120
    \key as \major
    \time 12/8
-   \autoBeamOff
+%  \autoBeamOff
    #(set-accidental-style 'modern-cautionary)
    \override TextSpanner #'(bound-details left text) = "rit."
    \partial 8*7
