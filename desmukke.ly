@@ -268,7 +268,7 @@ bassOne = \relative as {
 %225
    as4( g8) as4 g8 as4( ^\> g8) as4 g8 | as4 g8 as4 g8 as4 g8 as4 g8 |
    as4. as2. as4. \f | as8 as as  as as as  as, bes c  des d f |
-   es es r  r4 r8  es' es r  r4 r8 | es,2.(^\p \< ges! | ges \f \> f) | es1.\pp \fermata |
+   es es r  r4 r8  es' es r  r4 r8 | es,2.(^\p \< ges~ | ges \f \> f) | es1.\pp \fermata |
 }
 
 bassTwo = \relative es {
