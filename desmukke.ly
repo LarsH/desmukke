@@ -23,7 +23,7 @@
    top-margin = 25
    bottom-margin = 25
 %  systems-per-page = 3
-%  ragged-last-bottom = ##f
+   ragged-last-bottom = ##f
 %  annotate-spacing = ##t
 %  foot-separation = 7
 }
