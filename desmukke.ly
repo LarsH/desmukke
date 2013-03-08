@@ -338,7 +338,7 @@ bassTwo = \relative es {
 firstVerseTenorOne = {
    \set stanza = "1."
    \lyricmode {
-      Jeg kig -- ger på pi -- ge -- nes ska -- re,
+      Jeg kig -- ger på pi -- ger -- nes ska -- re,
       jeg spej -- der og spej -- der be -- stan -- dig,
       jeg spej -- der og spej -- der be -- stan -- dig;
       den skøn -- ne -- ste gad jeg nok ej -- e,
@@ -356,7 +356,7 @@ firstVerseTenorOne = {
 secondVerseTenorOne = {
    \set stanza = "2."
    \lyricmode {
-      Den e -- ne har ej -- ne så kla -- re,
+      Den e -- ne har øj -- ne så kla -- re,
       den an -- den har ro -- ser på kin -- den,
       den an -- den har ro -- ser på kin -- den,
       den tre -- die de sø -- de -- ste læ -- ber,
@@ -404,7 +404,7 @@ endingTenorOne = \lyricmode {
 firstVerseTenorTwo = {
 %   \set stanza = "1."
    \lyricmode {
-%     Jeg kig -- ger på pi -- ge -- nes ska -- re,
+%     Jeg kig -- ger på pi -- ger -- nes ska -- re,
 %     jeg spej -- der og spej -- der be -- stan -- dig,
 %     jeg spej -- der og spej -- der be -- stan -- dig;
 \repeat unfold 27 {\skip 1}
@@ -424,7 +424,7 @@ firstVerseTenorTwo = {
 secondVerseTenorTwo = {
 %   \set stanza = "2."
    \lyricmode {
-%      Den e -- ne har ej -- ne så kla -- re,
+%      Den e -- ne har øj -- ne så kla -- re,
 %      den an -- den har ro -- ser på kin -- den,
 %      den an -- den har ro -- ser på kin -- den,
 \repeat unfold 27 {\skip 1}
@@ -503,7 +503,7 @@ endingTenorTwo = \lyricmode {
 firstVerseBasOne = {
    \set stanza = "1."
    \lyricmode {
-      Jeg kig -- ger på pi -- ge -- nes ska -- re,
+      Jeg kig -- ger på pi -- ger -- nes ska -- re,
       jeg spej -- der og spej -- der be -- stan -- dig,
       jeg spej -- der og spej -- der be -- stan -- dig;
       den skøn -- ne -- ste gad jeg nok ej -- e,
@@ -523,7 +523,7 @@ firstVerseBasOne = {
 secondVerseBasOne = {
    \set stanza = "2."
    \lyricmode {
-      Den e -- ne har ej -- ne så kla -- re,
+      Den e -- ne har øj -- ne så kla -- re,
       den an -- den har ro -- ser på kin -- den,
       den an -- den har ro -- ser på kin -- den,
       den tre -- die de sø -- de -- ste læ -- ber,
@@ -584,7 +584,7 @@ endingBasOne = \lyricmode {
 firstVerseBasTwo = {
    \set stanza = "1."
    \lyricmode {
-      Jeg kig -- ger på pi -- ge -- nes ska -- re,
+      Jeg kig -- ger på pi -- ger -- nes ska -- re,
       jeg spej -- der og spej -- der be -- stan -- dig,
       den skøn -- ne -- ste gad jeg nok ej -- e,
       den skøn -- ne -- ste, den skøn -- ne -- ste,
@@ -603,7 +603,7 @@ firstVerseBasTwo = {
 secondVerseBasTwo = {
    \set stanza = "2."
    \lyricmode {
-      Den e -- ne har ej -- ne så kla -- re,
+      Den e -- ne har øj -- ne så kla -- re,
       den an -- den har ro -- ser på kin -- den,
       den tre -- die de sø -- de -- ste læ -- ber,
       de sø -- de -- ste, de sø -- de -- ste,
