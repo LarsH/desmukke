@@ -377,7 +377,7 @@ endingTenorOne = \lyricmode {
    et no -- get, der fæng -- sler min tan -- ke.
    Jeg kan ej en e -- ne -- ste vra -- ge,
    jeg kan ej en e -- ne -- ste vra -- ge,
-   o kunn -- e jeg
+   o kun -- ne jeg
    kys -- se dem al -- le, o
    kun -- ne jeg
    kys -- se, kys -- se dem al -- le,
@@ -452,51 +452,51 @@ endingTenorTwo = \lyricmode {
 %   jeg kan ej en e -- ne -- ste vra -- ge,
 \repeat unfold 18 {\skip 1}
 
-%   o kunn -- e jeg, kunn -- e jeg,
+%   o kun -- ne jeg, kun -- ne jeg,
 \repeat unfold 7 {\skip 1}
 
-%   kunn -- e jeg kys -- se dem,
-%   kunn -- e jeg kys -- se dem,
+%   kun -- ne jeg kys -- se dem,
+%   kun -- ne jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
 
-%   kunn -- e jeg kys -- se dem,
-%   kunn -- e jeg kys -- se dem,
+%   kun -- ne jeg kys -- se dem,
+%   kun -- ne jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
 
-%  kunn -- e jeg kys -- se dem,
-%  kunn -- e jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
 
-%  kunn -- e jeg kys -- se dem,
-%  kunn -- e jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
 
 %   al -- le, al -- le,
 \repeat unfold 4 {\skip 1}
 
-%   kunn -- e jeg, kunn -- e jeg,
-%   kunn -- e jeg, kunn -- e jeg,
+%   kun -- ne jeg, kun -- ne jeg,
+%   kun -- ne jeg, kun -- ne jeg,
 \repeat unfold 12 {\skip 1}
-%   kunn -- e jeg kys -- se dem,
-%   kunn -- e jeg kys -- se dem,
+%   kun -- ne jeg kys -- se dem,
+%   kun -- ne jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
-%  kunn -- e jeg kys -- se dem,
-%  kunn -- e jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
-%  kunn -- e jeg kys -- se dem,
-%  kunn -- e jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
-%  kunn -- e jeg kys -- se dem,
-%  kunn -- e jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
+%  kun -- ne jeg kys -- se dem,
 \repeat unfold 12 {\skip 1}
    al -- le, al -- le,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg,
-   kunn -- e jeg kys -- se dem al -- le,
-   kunn -- e jeg kys -- se dem al -- le,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg,
+   kun -- ne jeg kys -- se dem al -- le,
+   kun -- ne jeg kys -- se dem al -- le,
    al -- le, dem al -- le, ak dem
    %al -- le,
-   %o kunn -- e jeg kys -- se dem al -- le,
+   %o kun -- ne jeg kys -- se dem al -- le,
    %ja kys -- se dem al -- le, al -- le, al -- le!
 }
 
@@ -545,38 +545,38 @@ endingBasOne = \lyricmode {
    et no -- get, der fæng -- sler min tan -- ke.
    Jeg kan ej en e -- ne -- ste vra -- ge,
    jeg kan ej en e -- ne -- ste vra -- ge,
-   o kunn -- e jeg, kunn -- e jeg,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
+   o kun -- ne jeg, kun -- ne jeg,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
    al -- le, al -- le,
-   kunn -- e jeg, kunn -- e jeg,
-   kunn -- e jeg, kunn -- e jeg,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
+   kun -- ne jeg, kun -- ne jeg,
+   kun -- ne jeg, kun -- ne jeg,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
    %al -- le, al -- le,
 \repeat unfold 4 {\skip 1}
 
-   %kunn -- e jeg kys -- se dem al -- le,
-   %kunn -- e jeg kys -- se dem al -- le,
+   %kun -- ne jeg kys -- se dem al -- le,
+   %kun -- ne jeg kys -- se dem al -- le,
 \repeat unfold 16 {\skip 1}
    kys -- se dem al -- le,
 
-   kunn -- e jeg kys -- se dem al -- le, ja dem al -- le, ja dem
+   kun -- ne jeg kys -- se dem al -- le, ja dem al -- le, ja dem
    al -- le,
 
-   o kunn -- e jeg kys -- se dem al -- le,
+   o kun -- ne jeg kys -- se dem al -- le,
    ja kys -- se dem al -- le, al -- le, al -- le!
 }
 
@@ -623,27 +623,27 @@ endingBasTwo = \lyricmode {
    Der er ej den pi -- ge, der sav -- ner et no -- get,
    der fæng -- sler min tan -- ke,
    Jeg kan ej en e -- ne -- ste vra -- ge,
-   o kunn -- e jeg, kunn -- e jeg,
-   kunn -- e jeg, kunn -- e jeg,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
-   kunn -- e jeg kys -- se dem,
+   o kun -- ne jeg, kun -- ne jeg,
+   kun -- ne jeg, kun -- ne jeg,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem,
    al -- le, al -- le,
-   o kunn -- e jeg kys -- se dem al -- le,
+   o kun -- ne jeg kys -- se dem al -- le,
    ak
    ja! o
    kun -- e jeg kys -- se dem al -- le,
 
    ak ja! o
-   kunn -- e jeg kys -- se dem al -- le,
-   kunn -- e jeg kys -- se dem, kunn -- e jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem al -- le,
+   kun -- ne jeg kys -- se dem, kun -- ne jeg kys -- se dem,
 
-   kunn -- e jeg kys -- se dem, kunn -- e jeg kys -- se dem,
+   kun -- ne jeg kys -- se dem, kun -- ne jeg kys -- se dem,
    kys -- se dem, kys -- se dem, kys -- se dem, kys -- se dem,
    al -- le,
 
@@ -652,7 +652,7 @@ endingBasTwo = \lyricmode {
    al -- le dem al -- le,
 
    ak dem al --
-   le, o kunn -- e jeg kys -- se dem al -- le,
+   le, o kun -- ne jeg kys -- se dem al -- le,
    ja kys -- se dem al -- le, al -- le, al -- le!
 }
 
