@@ -148,7 +148,7 @@ tenorTwo = \relative c' {
    des2.~( des4. g,) | as4 r8 r4 as8
    as as as  as as as | as4. as2. r4 r8 |
 %212
-   r4 r8 r4 r8 r4 r8 es'4. _\f | c c4 c8 ces4. _\> ces4 ces8 \! |
+   r2. r4 r8 es'4. _\f | c c4 c8 ces4. _\> ces4 ces8 \! |
    bes4. bes4. r4 r8 ces4. _\mf | bes4 bes8 bes4 beses8 as4 as8 as4 as8|
 %213
    as4. as4 _\< as8 as4. g4 g8 | es'4.( \f d2.-> ) d4. | es4.( d2.-> ) d4. |
@@ -172,12 +172,12 @@ tenorTwo = \relative c' {
    des4. g,) | as4 r8 r4 as8 as as as  as as as |
    \pageBreak
 %218
-   as4. as2. r4 r8 | r4 r8 r4 r8 r4 r8 es'4. _\f | c c4 c8
+   as4. as2. r4 r8 | r2. r4 r8 es'4. _\f | c c4 c8
    \mybreak
    ces4. _\> ces4 ces8 \! | bes4. bes4. r4 r8
       ces4. _\p | bes4. bes r4 ces8 ces ces ces | bes4. bes
    \mybreak
-   r4 r8 r4 r8 | r4 r8 r4 des8 \pp des des des des des des |
+   r2. | r4 r8 r4 des8 \pp des des des des des des |
    \mybreak
 %219
    c c c c c c c c c c c c | \mybreak
@@ -186,9 +186,9 @@ tenorTwo = \relative c' {
 %220
    des des des des des des des des des des des des | \mybreak
    c4.(\< es2.~ es4.~ | es as, bes c | des2.) \> as | \mybreak
-   as(\p g) | as8 r r r4 r8 r4 r8 r4 r8 | \mybreak
+   as(\p g) | as8 r r r4 r8 r2. | \mybreak
 %221
-   des _\pp des des des des des des des des des des des | \mybreak
+   des8 _\pp des des des des des des des des des des des | \mybreak
    c c c c c c c c c c c c | \mybreak
    des des des des des des des des des des des des | \mybreak
 %222
@@ -202,7 +202,7 @@ tenorTwo = \relative c' {
 %224
    es \f \> es es d d des c c \! r r4 r8 | \mybreak
    es \> es es d d des c c \! r r4 r8 | \mybreak
-   r4 r8 r4 r8 es[ \< f es] des[ es] des | c2. \ff des8 r r r4 r8|\mybreak
+   r2. es8[ \< f es] des[ es] des | c2. \ff des8 r r r4 r8|\mybreak
 %225
    b2. b2. \> | b1. | \mybreak
    b2.~  b4. b\f | c8 c c c c c as bes c des d f | \break
