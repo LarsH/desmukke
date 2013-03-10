@@ -60,19 +60,19 @@ tenorOne = \relative es' {
 %211
    es2.~( es4. des4.) | c4 r8 r4 c8
    \mybreak
-   \sg des c b c \sg des c b c | des4. c2. r4 r8 |
+   \sg des c b c \sg des c b c | des4. c2. r4. |
    \mybreak
 
 %212
-   r2. r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
+   r2. r4. es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
    \mybreak
-   f4. es r4 r8 d4. ^\mf | f4 es8 bes4 c8 es4 des8 as4 bes8|
+   f4. es r4. d4. ^\mf | f4 es8 bes4 c8 es4 des8 as4 bes8|
    \mybreak
 
 %213
    des4( c8) des4 ^\< c8 c4( bes8) f'4 es8 | es4.( \f as-> g) f | es( as-> g) f|
    \mybreak
-   es4 ^\< f8 ges2. \! a,8 gis a | bes4.( g'2. f4.) | es r4 r8 r4 r8 r4 bes8^\p|
+   es4 ^\< f8 ges2. \! a,8 gis a | bes4.( g'2. f4.) | es r4. r4. r4 bes8^\p|
    \mybreak
 
 %214
@@ -100,14 +100,14 @@ tenorOne = \relative es' {
    es4 r8 r4 es8 \sg f es d es \sg f es d es | es2.~(
    \mybreak
    es4. des4.) | c4 r8 r4 c8
-   \sg des c b c \sg des c b c | des4. c2. r4 r8 |
+   \sg des c b c \sg des c b c | des4. c2. r4. |
    \mybreak
 
 %218
-   r2. r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
+   r2. r4. es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
    \mybreak
-   f4. es r4 r8 d4. ^\p | f4. es r4 d8 d es f | f4. es
-   r2. | r2. r4 r8 es4.\p |
+   f4. es r4. d4. ^\p | f4. es r4 d8 d es f | f4. es
+   r2. | r2. r4. es4.\p |
 %219
    es4.(^\< f) g as \! |
    as ^\> g4 f8 f4. es4 es8 |
@@ -115,9 +115,9 @@ tenorOne = \relative es' {
 %220
    as4 ^\> g8 bes as f f4. es \! |
    es2.( \< f4. g | as c, des es | f2.) ^\> fes
-   es~(^\p es4. f4 es8) | es r r r4 r8 r2. |
+   es~(^\p es4. f4 es8) | es r r r4. r2. |
 %221
-   r2. r4 r8 es4. |
+   r2. r4. es4. |
    es4.( ^\< f) g \! as |
    as ^\> g4 f8 f4. \! es |
 %222
@@ -127,15 +127,15 @@ tenorOne = \relative es' {
 %223
    ges2. f4.) fes \> |
    es2.~( \p es4. f4 es8) |
-   es r r r4 r8 r2. |
+   es r r r4. r2. |
 %224
-   es8 \f \> es es es es es es es \! r r4 r8 |
-   es \> es es es es es es es \! r r4 r8 |
-   r2. r4 r8 es^\< es es  | ges2. \ff f8 r r r4 r8|
+   es8 \f \> es es es es es es es \! r r4. |
+   es8 \> es es es es es es es \! r r4. |
+   r2. r4. es8^\< es es  | ges2. \ff f8 r r r4.|
 %225
    f2. es2. \> | es1. |
    d2.~ d4. d\f | es8 f g as es c as bes c des d f |
-   es es r r4 r8 g g r r4 r8 | as1.(\p\< | as\f\> )\( |as,\) \pp\fermata |
+   es es r r4. g8 g r r4. | as1.(\p\< | as\f\> )\( |as,\) \pp\fermata |
    \bar "|."
 }
 
@@ -146,13 +146,13 @@ tenorTwo = \relative c' {
    des2. | c4 r8 r4 c8 c c c  c c c |
 %211
    des2.~( des4. g,) | as4 r8 r4 as8
-   as as as  as as as | as4. as2. r4 r8 |
+   as as as  as as as | as4. as2. r4. |
 %212
-   r2. r4 r8 es'4. _\f | c c4 c8 ces4. _\> ces4 ces8 \! |
-   bes4. bes4. r4 r8 ces4. _\mf | bes4 bes8 bes4 beses8 as4 as8 as4 as8|
+   r2. r4. es'4. _\f | c c4 c8 ces4. _\> ces4 ces8 \! |
+   bes4. bes4. r4. ces4. _\mf | bes4 bes8 bes4 beses8 as4 as8 as4 as8|
 %213
    as4. as4 _\< as8 as4. g4 g8 | es'4.( \f d2.-> ) d4. | es4.( d2.-> ) d4. |
-   es4 _\< es8 es2. \! fis,8 fis fis | g4.( bes c d) | es r4 r8 r4 r8 r4 es8_\p|
+   es4 _\< es8 es2. \! fis,8 fis fis | g4.( bes c d) | es r4. r4. r4 es8_\p|
 %214
    f4( es8) f4 es8 f4( es8) f4 es8 | as,4.( c) des c |
    f4( es8) f4 es8 f4( es8) f4 es8 | as,4.(_\< c) des c |
@@ -172,12 +172,12 @@ tenorTwo = \relative c' {
    des4. g,) | as4 r8 r4 as8 as as as  as as as |
    \pageBreak
 %218
-   as4. as2. r4 r8 | r2. r4 r8 es'4. _\f | c c4 c8
+   as4. as2. r4. | r2. r4. es'4. _\f | c c4 c8
    \mybreak
-   ces4. _\> ces4 ces8 \! | bes4. bes4. r4 r8
+   ces4. _\> ces4 ces8 \! | bes4. bes4. r4.
       ces4. _\p | bes4. bes r4 ces8 ces ces ces | bes4. bes
    \mybreak
-   r2. | r4 r8 r4 des8 \pp des des des des des des |
+   r2. | r4. r4 des8 \pp des des des des des des |
    \mybreak
 %219
    c c c c c c c c c c c c | \mybreak
@@ -186,7 +186,7 @@ tenorTwo = \relative c' {
 %220
    des des des des des des des des des des des des | \mybreak
    c4.(\< es2.~ es4.~ | es as, bes c | des2.) \> as | \mybreak
-   as(\p g) | as8 r r r4 r8 r2. | \mybreak
+   as(\p g) | as8 r r r4. r2. | \mybreak
 %221
    des8 _\pp des des des des des des des des des des des | \mybreak
    c c c c c c c c c c c c | \mybreak
@@ -200,13 +200,13 @@ tenorTwo = \relative c' {
    as2.( g) | \mybreak
    as8 r r es \< f g as bes c des d f | \mybreak
 %224
-   es \f \> es es d d des c c \! r r4 r8 | \mybreak
-   es \> es es d d des c c \! r r4 r8 | \mybreak
-   r2. es8[ \< f es] des[ es] des | c2. \ff des8 r r r4 r8|\mybreak
+   es \f \> es es d d des c c \! r r4. | \mybreak
+   es8 \> es es d d des c c \! r r4. | \mybreak
+   r2. es8[ \< f es] des[ es] des | c2. \ff des8 r r r4.|\mybreak
 %225
    b2. b2. \> | b1. | \mybreak
    b2.~  b4. b\f | c8 c c c c c as bes c des d f | \break
-   es es r r4 r8 des des r r4 r8 | c2.(\p\< es~ | es\f\> des) |c1.\pp\fermata |
+   es es r r4. des8 des r r4. | c2.(\p\< es~ | es\f\> des) |c1.\pp\fermata |
 
 }
 
@@ -214,16 +214,16 @@ bassOne = \relative as {
    \settings
 %210
    as8 as as as a a a | bes4( as8) g4 r8
-   r2. | r4 r8 r4 as8 as as as a a a |
+   r2. | r4. r4 as8 as as as a a a |
 %211
-   bes4( as8) g4 r8 r2. | r4 r8 r4 es8
-   es d es es d es | f4. es2. r4 r8 |
+   bes4( as8) g4 r8 r2. | r4. r4 es8
+   es d es es d es | f4. es2. r4. |
 %212
-   r2. r4 r8 c'4.^\f | as as4 as8 as4.^\> as4 as8 \! |
-   g4. g r4 r8 as4.^\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
+   r2. r4. c'4.^\f | as as4 as8 as4.^\> as4 as8 \! |
+   g4. g r4. as4.^\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
 %213
    es4. es4 ^\< es8 f4. es4 es8 | es4.( ^\f f-> g) as | g( f-> g) as |
-   g4 ^\< as8 a2. \! es8 es es | es4.( bes' a as) | g r4 r8 r4 r8 r4 g8 ^\p |
+   g4 ^\< as8 a2. \! es8 es es | es4.( bes' a as) | g r4. r4. r4 g8 ^\p |
 %214
    g2. bes4. bes | es,2. g4. as |
    g2. bes4. bes | es,2. ^\< g4. as |
@@ -235,12 +235,12 @@ bassOne = \relative as {
    as2.~ as4. as | c2.( ^\p \< as | g1.) \> | es~ \! | es8 r8 r8 r4 \fermata
 %217
    as8 ^\p as as as a a a | bes4( as8) g4 r8 r2. |
-   r4 r8 r4 as8 as as as a a a | bes4( as8) g4 r8
-   r2. | r4 r8 r4 es8 es d es es d es |
+   r4. r4 as8 as as as a a a | bes4( as8) g4 r8
+   r2. | r4. r4 es8 es d es es d es |
 %218
-   f4. es2. r4 r8 | r2. r4 r8 c'4.^\f | as as4 as8 as4.
-   as4 \> as8 \! | g4. g r4 r8 as4.^\p | g g r4 as8 as as as | g4. g
-   r2. | r4 r8 r4 bes8 \pp bes bes bes  bes bes bes
+   f4. es2. r4. | r2. r4. c'4.^\f | as as4 as8 as4.
+   as4 \> as8 \! | g4. g r4. as4.^\p | g g r4 as8 as as as | g4. g
+   r2. | r4. r4 bes8 \pp bes bes bes  bes bes bes
 %219
    as as as  as as as  as as as  as as as |
    bes bes bes  bes bes bes  bes bes bes  bes bes bes |
@@ -248,7 +248,7 @@ bassOne = \relative as {
 %220
    bes bes bes  bes bes bes  bes bes bes  bes bes bes |
    as4.( ^\< es' d des | c as2. ges!4. | as2.)\> ces |
-   bes4.( \p c des2.) | c8 r r  r4 r8  r2. |
+   bes4.( \p c des2.) | c8 r r  r4.  r2. |
 %221
    bes8 ^\pp bes bes  bes bes bes  bes bes bes  bes bes bes |
    as as as  as as as  as as as  as as as |
@@ -260,28 +260,28 @@ bassOne = \relative as {
 %223
    as4. beses as) ces \> |
    bes( \p c4. des2.) |
-   c8 r r  r4 r8  r2. |
+   c8 r r  r4.  r2. |
 %224
-   es,8^\f \> es es  f f g  as as \! r8  r4 r8 |
-   es ^\> es es  f f g as as \! r r4 r8 |
-   r2.  r4 r8  es8 ^\< es es | es2. \ff f8 r r r4 r8 |
+   es,8^\f \> es es  f f g  as as \! r8  r4. |
+   es8 ^\> es es  f f g as as \! r r4. |
+   r2.  r4.  es8 ^\< es es | es2. \ff f8 r r r4. |
 %225
    as4( g8) as4 g8 as4( ^\> g8) as4 g8 | as4 g8 as4 g8 as4 g8 as4 g8 |
    as4. as2. as4. \f | as8 as as  as as as  as, bes c  des d f |
-   es es r  r4 r8  es' es r  r4 r8 | es,2.(^\p \< ges~ | ges \f \> f) | es1.\pp \fermata |
+   es es r  r4.  es'8 es r  r4. | es,2.(^\p \< ges~ | ges \f \> f) | es1.\pp \fermata |
 }
 
 bassTwo = \relative es {
    \settings
 %210
-   r8 r2. | r4 r8 r4 es8
+   r8 r2. | r4. r4 es8
    f g as g as bes | c4( as8) es4 r8 r2. |
 %211
-   r4 r8 r4 es8 des' bes g es des bes | as4( c16[ es]) as4 r8
-   r2. | r2. r4 r8 es4( as8) |
+   r4. r4 es8 des' bes g es des bes | as4( c16[ es]) as4 r8
+   r2. | r2. r4. es4( as8) |
 %212
    c4. des4 c8 bes4( as8) g4 f8 | es4( c8) as4 r8 r2. |
-   r2. r4 r8 as'4. _\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
+   r2. r4. as'4. _\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
 %213
    % Ska det vara marcato efter forte:t?
    es4. es4 _\< es8 d4. des4 des8 | c4.( \f b2.) b4. | c4.( b2.->) c4. |
@@ -297,13 +297,13 @@ bassTwo = \relative es {
    f | f~ f4. \! f | es1.~
    es2.~ es4. es | es1.~ _\p _\< | es \> | as,~ \! | as8 r r r4 \fermata
 %217
-   r8 r2. | r4 r8 r4 es'8 _\p f g as g as bes |
-   c4( as8) es4 r8 r2. | r4 r8 r4 es8
+   r8 r2. | r4. r4 es'8 _\p f g as g as bes |
+   c4( as8) es4 r8 r2. | r4. r4 es8
    des' bes g  es des bes | as4( c16[ es]) as4 r8  r2. |
 %218
-   r2.  r4 r8  es4( _\f as8) | c4. des4 c8  bes4( as8)  g4 f8 |
+   r2.  r4.  es4( _\f as8) | c4. des4 c8  bes4( as8)  g4 f8 |
    es4( c8) as4 r8      r2. | r1. | r | r2.
-   r4 r8 es'4. _\pp | es8 es es  es es es  es es es  es es es |
+   r4. es'4. _\pp | es8 es es  es es es  es es es  es es es |
 %219
    es es es  es es es  es es es  es es es |
    es es es  es es es  es es es  es es es |
@@ -313,26 +313,26 @@ bassTwo = \relative es {
    as,4.(_\< c' b bes | as ges f es | des2.) \> d |
    es1. _\p | es8 r r  r4 es8 _\p es c'  bes as g f |
 %221
-   es8 es r  r4 r8  r4 r8  es'4. |
-   es,  r4 r8  r4 r8  es4. |
+   es8 es r  r4.  r4.  es'4. |
+   es,  r4.  r4.  es4. |
    es8 es' es  des bes as  as4.  g |
 %222
-   as4 r8  es4 r8  r4 r8  es4. |
+   as4 r8  es4 r8  r4.  es4. |
    es8 es' es  des bes as  as4.  g |
    as,8 as as  as' as as  bes, bes bes  bes' bes bes |
 %223
    c, c c  c c c  des des des  d d d |
    es es es  es es es  es es es  es es es |
-   es es r  r4 r8   r2. |
+   es es r  r4.   r2. |
 %224
-   r4 r8  r4  es8_\p es c'  bes as g f |
+   r4.  r4  es8_\p es c'  bes as g f |
    es es r  r4 es8 es c' bes as g f |
-   es[(_\< f es] des[ es des] c[ des c]) bes[( c]) bes | as2.\ff des8 r r r4 r8 |
+   es[(_\< f es] des[ es des] c[ des c]) bes[( c]) bes | as2.\ff des8 r r r4. |
 % XXX
 %225
    d2. es_\> | f1. |
    f2.~ f4. f\f | es8 es es  es es es  as, bes c  des d f |
-   es es r  r4 r8  es es r  r4 r8  | as,1.~_\p\<|as\f\>|as\pp\fermata|
+   es es r  r4.  es8 es r  r4.  | as,1.~_\p\<|as\f\>|as\pp\fermata|
 }
 
 firstVerseTenorOne = {
