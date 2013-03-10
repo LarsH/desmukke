@@ -64,7 +64,7 @@ tenorOne = \relative es' {
    \mybreak
 
 %212
-   r4 r8 r4 r8 r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
+   r2. r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
    \mybreak
    f4. es r4 r8 d4. ^\mf | f4 es8 bes4 c8 es4 des8 as4 bes8|
    \mybreak
@@ -104,10 +104,10 @@ tenorOne = \relative es' {
    \mybreak
 
 %218
-   r4 r8 r4 r8 r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
+   r2. r4 r8 es4. ^\f | es4( as8) g4 f8 es4( ^\> d8) es4 f8 \! |
    \mybreak
    f4. es r4 r8 d4. ^\p | f4. es r4 d8 d es f | f4. es
-   r4 r8 r4 r8 | r4 r8 r4 r8 r4 r8 es4.\p |
+   r2. | r2. r4 r8 es4.\p |
 %219
    es4.(^\< f) g as \! |
    as ^\> g4 f8 f4. es4 es8 |
@@ -117,7 +117,7 @@ tenorOne = \relative es' {
    es2.( \< f4. g | as c, des es | f2.) ^\> fes
    es~(^\p es4. f4 es8) | es r r r4 r8 r4 r8 r4 r8 |
 %221
-   r4 r8 r4 r8 r4 r8 es4. |
+   r2. r4 r8 es4. |
    es4.( ^\< f) g \! as |
    as ^\> g4 f8 f4. \! es |
 %222
@@ -127,11 +127,11 @@ tenorOne = \relative es' {
 %223
    ges2. f4.) fes \> |
    es2.~( \p es4. f4 es8) |
-   es r r r4 r8 r4 r8 r4 r8 |
+   es r r r4 r8 r2. |
 %224
-   es \f \> es es es es es es es \! r r4 r8 |
+   es8 \f \> es es es es es es es \! r r4 r8 |
    es \> es es es es es es es \! r r4 r8 |
-   r4 r8 r4 r8 r4 r8 es^\< es es  | ges2. \ff f8 r r r4 r8|
+   r2. r4 r8 es^\< es es  | ges2. \ff f8 r r r4 r8|
 %225
    f2. es2. \> | es1. |
    d2.~ d4. d\f | es8 f g as es c as bes c des d f |
