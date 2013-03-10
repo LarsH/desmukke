@@ -214,12 +214,12 @@ bassOne = \relative as {
    \settings
 %210
    as8 as as as a a a | bes4( as8) g4 r8
-   r4 r8 r4 r8 | r4 r8 r4 as8 as as as a a a |
+   r2. | r4 r8 r4 as8 as as as a a a |
 %211
-   bes4( as8) g4 r8 r4 r8 r4 r8 | r4 r8 r4 es8
+   bes4( as8) g4 r8 r2. | r4 r8 r4 es8
    es d es es d es | f4. es2. r4 r8 |
 %212
-   r4 r8 r4 r8 r4 r8 c'4.^\f | as as4 as8 as4.^\> as4 as8 \! |
+   r2. r4 r8 c'4.^\f | as as4 as8 as4.^\> as4 as8 \! |
    g4. g r4 r8 as4.^\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
 %213
    es4. es4 ^\< es8 f4. es4 es8 | es4.( ^\f f-> g) as | g( f-> g) as |
@@ -234,13 +234,13 @@ bassOne = \relative as {
    as4 g8 as4 g8 | as4. as2. as4. | as1.~ |
    as2.~ as4. as | c2.( ^\p \< as | g1.) \> | es~ \! | es8 r8 r8 r4 \fermata
 %217
-   as8 ^\p as as as a a a | bes4( as8) g4 r8 r4 r8 r4 r8 |
+   as8 ^\p as as as a a a | bes4( as8) g4 r8 r2. |
    r4 r8 r4 as8 as as as a a a | bes4( as8) g4 r8
-   r4 r8 r4 r8 | r4 r8 r4 es8 es d es es d es |
+   r2. | r4 r8 r4 es8 es d es es d es |
 %218
-   f4. es2. r4 r8 | r4 r8 r4 r8 r4 r8 c'4.^\f | as as4 as8 as4.
+   f4. es2. r4 r8 | r2. r4 r8 c'4.^\f | as as4 as8 as4.
    as4 \> as8 \! | g4. g r4 r8 as4.^\p | g g r4 as8 as as as | g4. g
-   r4 r8 r4 r8 | r4 r8 r4 bes8 \pp bes bes bes  bes bes bes
+   r2. | r4 r8 r4 bes8 \pp bes bes bes  bes bes bes
 %219
    as as as  as as as  as as as  as as as |
    bes bes bes  bes bes bes  bes bes bes  bes bes bes |
@@ -248,9 +248,9 @@ bassOne = \relative as {
 %220
    bes bes bes  bes bes bes  bes bes bes  bes bes bes |
    as4.( ^\< es' d des | c as2. ges!4. | as2.)\> ces |
-   bes4.( \p c des2.) | c8 r r  r4 r8  r4 r8  r4 r8 |
+   bes4.( \p c des2.) | c8 r r  r4 r8  r2. |
 %221
-   bes ^\pp bes bes  bes bes bes  bes bes bes  bes bes bes |
+   bes8 ^\pp bes bes  bes bes bes  bes bes bes  bes bes bes |
    as as as  as as as  as as as  as as as |
    bes bes bes  bes bes bes  bes bes bes  bes bes bes |
 %222
@@ -260,11 +260,11 @@ bassOne = \relative as {
 %223
    as4. beses as) ces \> |
    bes( \p c4. des2.) |
-   c8 r r  r4 r8  r4 r8  r4 r8 |
+   c8 r r  r4 r8  r2. |
 %224
-   es,^\f \> es es  f f g  as as \! r8  r4 r8 |
+   es,8^\f \> es es  f f g  as as \! r8  r4 r8 |
    es ^\> es es  f f g as as \! r r4 r8 |
-   r4 r8  r4 r8  r4 r8  es8 ^\< es es | es2. \ff f8 r r r4 r8 |
+   r2.  r4 r8  es8 ^\< es es | es2. \ff f8 r r r4 r8 |
 %225
    as4( g8) as4 g8 as4( ^\> g8) as4 g8 | as4 g8 as4 g8 as4 g8 as4 g8 |
    as4. as2. as4. \f | as8 as as  as as as  as, bes c  des d f |
