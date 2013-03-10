@@ -33,7 +33,8 @@ mybreak = {
 }
 
 settings = \relative c {
-   \tempo "Allegretto leggiero" 4.=120
+   \set Score.tempoHideNote = ##t
+   \tempo "Allegretto leggiero" 4.=88
    \key as \major
    \time 12/8
 %  \autoBeamOff
