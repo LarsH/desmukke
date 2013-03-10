@@ -366,8 +366,12 @@ secondVerseTenorOne = {
       den fjer -- de et glø -- den -- de, glø -- den -- de hjer -- te,
       et glø -- den -- de, glø -- den -- de hjer -- te,
       glø -- den -- de hjer -- te,
-      den fjer -- de et glø -- den -- de hjer -- te! __
-      % TODO: fixa "den" på rätt plats!
+      den fjer -- de
+      et
+      \set ignoreMelismata = ##t
+      glø -- \skip 2. den -- de
+      \unset ignoreMelismata
+      hjer -- te! __
    }
 }
 
@@ -436,8 +440,11 @@ secondVerseTenorTwo = {
       den fjer -- de et glø -- den -- de hjer -- te,
       den fjer -- de et glø -- den -- de hjer -- te,
       den fjer -- de glø -- den -- de hjer -- te, __
-      % TODO: fixa "den" på rätt plats!
-      et glø1. dende hjer -- te! __
+      et
+      \set ignoreMelismata = ##t
+      glø -- \skip 2. den -- de
+      \unset ignoreMelismata
+      hjer -- te! __
    }
 }
 
@@ -532,10 +539,17 @@ secondVerseBasOne = {
       ja de sø -- de -- ste, sø -- de -- ste læ -- ber,
       den fjer -- de et glø -- den -- de,
       glø -- den -- de  hjer -- te, den
-      fjer -- de et glø -- den -- de hjer -- te, et glø -- dende
+      fjer -- de et glø -- den -- de hjer -- te, et glø --
+      \set ignoreMelismata = ##t
+      den -- de
+      \unset ignoreMelismata
       hjer -- te, ak et hjer -- te, ak et hjer -- te, ak et
-      hjer -- te, ak et hjer -- te, et glø --
-      dende hjer -- te! __
+      hjer -- te, ak et hjer -- te,
+      et
+      \set ignoreMelismata = ##t
+      glø -- \skip 2. den -- de
+      \unset ignoreMelismata
+      hjer -- te! __
       }
 }
 
@@ -614,8 +628,12 @@ secondVerseBasTwo = {
       glø -- den -- de hjer -- te, den
       fjer -- de glø --
       den -- de hjer --
-      te, __ et glø --
-      dende hjer -- te! __
+      te, __
+      et
+      \set ignoreMelismata = ##t
+      glø -- \skip 2. den -- de
+      \unset ignoreMelismata
+      hjer -- te! __
       }
 }
 %XXX
