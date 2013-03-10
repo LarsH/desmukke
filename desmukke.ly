@@ -2,7 +2,7 @@
 
 #(set-global-staff-size 16)
 
-%\pointAndClickOff
+\pointAndClickOff
 
 \header {
 %  dedication = "Dedikering"
