@@ -115,7 +115,7 @@ tenorOne = \relative es' {
 %220
    as4 ^\> g8 bes as f f4. es \! |
    es2.( \< f4. g | as c, des es | f2.) ^\> fes
-   es~(^\p es4. f4 es8) | es r r r4 r8 r4 r8 r4 r8 |
+   es~(^\p es4. f4 es8) | es r r r4 r8 r2. |
 %221
    r2. r4 r8 es4. |
    es4.( ^\< f) g \! as |
@@ -274,14 +274,14 @@ bassOne = \relative as {
 bassTwo = \relative es {
    \settings
 %210
-   r8 r4 r8 r4 r8 | r4 r8 r4 es8
-   f g as g as bes | c4( as8) es4 r8 r4 r8 r4 r8 |
+   r8 r2. | r4 r8 r4 es8
+   f g as g as bes | c4( as8) es4 r8 r2. |
 %211
    r4 r8 r4 es8 des' bes g es des bes | as4( c16[ es]) as4 r8
-   r4 r8 r4 r8 | r4 r8 r4 r8 r4 r8 es4( as8) |
+   r2. | r2. r4 r8 es4( as8) |
 %212
-   c4. des4 c8 bes4( as8) g4 f8 | es4( c8) as4 r8 r4 r8 r4 r8 |
-   r4 r8 r4 r8 r4 r8 as'4. _\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
+   c4. des4 c8 bes4( as8) g4 f8 | es4( c8) as4 r8 r2. |
+   r2. r4 r8 as'4. _\mf | g4 g8 ges4 ges8 f4 f8 fes4 fes8 |
 %213
    % Ska det vara marcato efter forte:t?
    es4. es4 _\< es8 d4. des4 des8 | c4.( \f b2.) b4. | c4.( b2.->) c4. |
@@ -297,12 +297,12 @@ bassTwo = \relative es {
    f | f~ f4. \! f | es1.~
    es2.~ es4. es | es1.~ _\p _\< | es \> | as,~ \! | as8 r r r4 \fermata
 %217
-   r8 r4 r8 r4 r8 | r4 r8 r4 es'8 _\p f g as g as bes |
-   c4( as8) es4 r8 r4 r8 r4 r8 | r4 r8 r4 es8
-   des' bes g  es des bes | as4( c16[ es]) as4 r8  r4 r8  r4 r8 |
+   r8 r2. | r4 r8 r4 es'8 _\p f g as g as bes |
+   c4( as8) es4 r8 r2. | r4 r8 r4 es8
+   des' bes g  es des bes | as4( c16[ es]) as4 r8  r2. |
 %218
-   r4 r8  r4 r8  r4 r8  es4( _\f as8) | c4. des4 c8  bes4( as8)  g4 f8 |
-   es4( c8) as4 r8      r4 r8 r4 r8 | r1. | r | r4 r8 r4 r8
+   r2.  r4 r8  es4( _\f as8) | c4. des4 c8  bes4( as8)  g4 f8 |
+   es4( c8) as4 r8      r2. | r1. | r | r2.
    r4 r8 es'4. _\pp | es8 es es  es es es  es es es  es es es |
 %219
    es es es  es es es  es es es  es es es |
@@ -323,7 +323,7 @@ bassTwo = \relative es {
 %223
    c, c c  c c c  des des des  d d d |
    es es es  es es es  es es es  es es es |
-   es es r  r4 r8   r4 r8  r4 r8 |
+   es es r  r4 r8   r2. |
 %224
    r4 r8  r4  es8_\p es c'  bes as g f |
    es es r  r4 es8 es c' bes as g f |
