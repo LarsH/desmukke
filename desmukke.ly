@@ -6,7 +6,7 @@
 
 \header {
 %  dedication = "Dedikering"
-   title = "De smukke"
+   title = \markup {\override #'(font-size . 8) "De smukke" }
 %  subtitle = ""
 %  poet = "1 Vanster"
 %  meter = "2 Vanster"
