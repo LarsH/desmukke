@@ -203,7 +203,7 @@ tenorTwo = \relative c' {
 %224
    es \f \> es es d d des c c \! r r4. | \mybreak
    es8 \> es es d d des c c \! r r4. | \mybreak
-   r2. es8[ \< f es] des[ es] des | c2. \ff des8 r r r4.|\mybreak
+   r2. es8( \< f es) des( es) des | c2. \ff des8 r r r4.|\mybreak
 %225
    b2. b2. \> | b1. | \mybreak
    b2.~  b4. b\f | c8 c c c c c as bes c des d f | \break
